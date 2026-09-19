@@ -1,77 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-site-verification" content="qNotbTiTI_l2m9yqXQg9p_pVC2oWk_hgWwd5fnVxXdE" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>VPBet Official Website</title>
+    <title>VPBET Security &amp; Domain Verification Gateway</title>
 
-    <meta name="description"
-          content="Visit the official VPBet website for information, access and platform updates.">
+    <meta name="description" content="VPBET Security & Domain Verification Gateway. Verify the VPBET web address before entering account information or making any payment.">
+
+    <meta name="google-site-verification" content="qNotbTiTI_l2m9yqXQg9p_pVC2oWk_hgWwd5fnVxXdE" />
 
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f5f7fa;
-            color: #222;
+        * {
+            box-sizing: border-box;
         }
 
-        .container {
-            max-width: 900px;
-            margin: 80px auto;
-            padding: 40px;
-            background: white;
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            padding: 40px 18px;
+            background: #0d1528;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .page {
+            width: 100%;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: #1d293d;
+            border: 1px solid #34435b;
+            border-radius: 14px;
+            padding: 34px 32px;
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.35);
+        }
+
+        .badge-wrap {
             text-align: center;
-            border-radius: 15px;
-            box-shadow: 0 5px 25px rgba(0,0,0,.08);
+            margin-bottom: 20px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 999px;
+            background: #047857;
+            color: #d1fae5;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .badge-check {
+            color: #34d399;
+            margin-right: 5px;
         }
 
         h1 {
-            font-size: 40px;
-            margin-bottom: 15px;
+            margin: 0 0 18px;
+            text-align: center;
+            font-size: 31px;
+            line-height: 1.25;
+            font-weight: 700;
         }
 
-        p {
-            font-size: 18px;
+        .intro {
+            margin: 0 auto 26px;
+            max-width: 570px;
+            text-align: center;
+            color: #aebbd0;
+            font-size: 16px;
             line-height: 1.7;
         }
 
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 15px 30px;
-            background: #111827;
-            color: white;
-            text-decoration: none;
+        .domain-box {
+            margin-bottom: 28px;
+            padding: 20px;
+            text-align: center;
+            background: #101a2d;
+            border: 1px dashed #52627b;
             border-radius: 8px;
-            font-weight: bold;
         }
 
-        .button:hover {
-            opacity: .85;
+        .domain-label {
+            display: block;
+            margin-bottom: 9px;
+            color: #8494ae;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .domain-link {
+            color: #25b9ff;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            word-break: break-word;
+        }
+
+        .domain-link:hover {
+            text-decoration: underline;
+        }
+
+        .main-button {
+            display: block;
+            width: 100%;
+            padding: 15px 20px;
+            background: #2864e6;
+            color: #ffffff;
+            border-radius: 7px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 700;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .main-button:hover {
+            background: #1d55ce;
+            transform: translateY(-1px);
+        }
+
+        .divider {
+            height: 1px;
+            margin: 28px 0;
+            background: #35445a;
+        }
+
+        .faq-heading {
+            margin: 0 0 20px;
+            font-size: 19px;
+            line-height: 1.4;
+        }
+
+        .faq {
+            margin-bottom: 21px;
+        }
+
+        .question {
+            margin-bottom: 7px;
+            color: #20b5ff;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 1.5;
+        }
+
+        .answer {
+            margin: 0;
+            color: #aebbd0;
+            font-size: 14px;
+            line-height: 1.65;
+        }
+
+        .footer {
+            margin-top: 27px;
+            color: #71819a;
+            text-align: center;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 12px;
+            }
+
+            .card {
+                padding: 27px 20px;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            .intro {
+                font-size: 15px;
+            }
+
+            .domain-link {
+                font-size: 16px;
+            }
         }
     </style>
 </head>
 
 <body>
 
-<div class="container">
+<main class="page">
+    <section class="card">
 
-    <h1>VPBet Official Website</h1>
+        <div class="badge-wrap">
+            <div class="badge">
+                <span class="badge-check">✓</span> Domain Verification Gateway
+            </div>
+        </div>
 
-    <p>
-        Welcome to the official VPBet information page.
-        Verify the website address before accessing any account
-        or providing personal information.
-    </p>
+        <h1>VPBET Security &amp; Domain Verification Gateway</h1>
 
-    <a class="button" href="https://vpbet.site/" target="_blank" rel="nofollow noopener">
-        Visit Official Website
-    </a>
+        <p class="intro">
+            This verification page helps users identify the VPBET web address
+            they intend to visit and avoid misleading or unauthorized mirror
+            pages. Always check the domain shown in your browser before
+            entering account information or making any payment.
+        </p>
 
-</div>
+        <div class="domain-box">
+            <span class="domain-label">Primary Website Domain</span>
+
+            <a
+                class="domain-link"
+                href="https://vpbet.site/"
+                target="_blank"
+                rel="nofollow noopener">
+                https://vpbet.site/
+            </a>
+        </div>
+
+        <a
+            class="main-button"
+            href="https://vpbet.site/"
+            target="_blank"
+            rel="nofollow noopener">
+            Visit VPBET Website
+        </a>
+
+        <div class="divider"></div>
+
+        <h2 class="faq-heading">Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <div class="question">
+                Q: Why do I see different VPBET domains in search results?
+            </div>
+            <p class="answer">
+                A: Search results may contain pages, references, redirects, or
+                alternative domains associated with online gaming services.
+                Always inspect the complete domain name before continuing and
+                avoid unfamiliar links.
+            </p>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                Q: How can I check whether a VPBET page is safe to visit?
+            </div>
+            <p class="answer">
+                A: Check that the URL is exactly the domain you intended to
+                visit, confirm that HTTPS is enabled, and avoid pages that
+                request unusual credentials, payment details, or software
+                downloads.
+            </p>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                Q: Should I enter my VPBET password on a verification page?
+            </div>
+            <p class="answer">
+                A: No. A domain-verification page should not ask you to submit
+                your account password, authentication code, payment PIN, or
+                other sensitive credentials.
+            </p>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                Q: What should I do if I find a suspicious VPBET mirror?
+            </div>
+            <p class="answer">
+                A: Do not enter personal or financial information. Close the
+                page and independently navigate to the domain you trust rather
+                than following an unfamiliar search result, advertisement, or
+                unsolicited message.
+            </p>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                Q: Is this page a VPBET login page?
+            </div>
+            <p class="answer">
+                A: No. This page is intended only to provide domain and
+                security information. Account credentials should only be
+                entered on the appropriate login interface of the service you
+                intend to use.
+            </p>
+        </div>
+
+        <footer class="footer">
+            Protected by VPBET Domain Security Information.
+            Always verify the URL before continuing.
+        </footer>
+
+    </section>
+</main>
 
 </body>
 </html>
